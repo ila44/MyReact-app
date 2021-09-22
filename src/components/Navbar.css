@@ -1,0 +1,32 @@
+.navbar {
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top:0;
+    left:0;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.4);
+}
+
+.nav-item-logo {
+    padding:10px;
+    margin-left:25px;
+}
+.nav-item-logo img {
+    height:75px;
+}
+
+.nav-item-right {
+    cursor: pointer;
+    padding:10px 15px;
+    margin-right:40px;
+    font-size:18px;
+    font-weight: 400;
+    background: rgb(25, 145, 214);
+    color:white;
+    border-radius:15px;
+    outline:none;
+    border:none;
+   
+}

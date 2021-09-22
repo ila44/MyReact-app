@@ -1,25 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './components/Navbar';
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className="App">
+            <Navbar />
+            <div className="mainimagebar">
+                <div className="statementsbar">
+                    <h1>Language Assessment made easy and automated</h1>
+                    <h3>Automate language assessment by using MxAssess to benchmark language skills. You can use MxAssess to test language development with an automated AI driven tool.</h3>
+                </div>
+            </div>
+        </div>
+    )
 }
-
 export default App;

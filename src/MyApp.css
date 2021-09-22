@@ -1,0 +1,111 @@
+.myApp {
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    height:100vh;
+    background-color: #eee ;
+}
+.left {
+   width:45%;
+   background-color:black; 
+   color: white;
+   padding:3vh 3vh 3vh 5vh;
+   clip-path: polygon(0% 0%,80% 0%, 100% 50%,80% 100%,0% 100%);
+}
+
+.left p {
+    font-size: 12px;
+    margin-right:50px;
+}
+.left h1 {
+    font-size:40px;
+}
+.left .mybtn {
+    cursor: pointer;
+    padding:10px 14px;
+    outline: none;
+    border:none;
+    border-radius: 5px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.mybtn:hover {
+    background-color: black;
+    color:white;
+}
+.right {
+    width:55%;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    top:25%;
+}
+.cont-left h3,h1 {
+    margin-block: 0;
+ 
+}
+.cont-left h3 {
+    margin-top:10px;
+    font-weight: 500;
+}
+.cont-right {
+    display: flex;
+    flex-direction: row;
+}
+
+.mybtns {
+    margin-right:10px;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: #eee;
+    color:black;
+    border:1px solid black;
+    padding:8px 10px;
+    border-radius: 4px;
+}
+.mybtns:first-child {
+    margin-left:100px;
+}
+.mybtns:hover {
+    background-color:black;
+    color:white;
+}
+.forms {
+    position: relative;
+    top:30%;
+    display: flex;
+    justify-content: center;
+}
+.myform {
+    margin-top:40px;
+    display: flex;
+    flex-direction: column;
+}
+.myform h6 {
+    margin-block: 0;
+    font-weight: 400;
+    font-size:16px;
+    padding-left:10px;
+}
+
+.myform .form-control {
+    font-size:16px;
+    padding:10px;
+    margin-top:10px;
+    outline: none;
+    border:1px solid black;
+    border-radius: 4px;
+}
+
+.btn {
+    cursor: pointer;
+    background-color: black;
+    color:white;
+}
+.btn:hover {
+    color:black;
+    background-color: white;
+}
